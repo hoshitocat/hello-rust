@@ -116,17 +116,4 @@ Rustをキャッチアップしつつ、OSSのRustで書かれたPJにContribute
 
 # 実行環境
 
-Dockerを利用する
-
-1. ImageをPullする
-    2024/11/24時点で最新が1.82.0らしい
-
-    ```
-    docker pull rust:1.82.0-alpine3.20
-    ```
-
-2. コンテナを実行
-
-    ```shell
-    docker run -it  rust:1.82.0-alpine3.20
-    ```
+compose.ymlがあるのでそれで実行環境を作成
