@@ -114,3 +114,19 @@ Rustをキャッチアップしつつ、OSSのRustで書かれたPJにContribute
             - 実際この辺の解像度は低いので信憑性に薄く調査をする必要があるという点でもキャッチアップしていきたいと思っている
 - 今年中にOSSにContributeするところまではいきたいと思っている
 
+# 実行環境
+
+Dockerを利用する
+
+1. ImageをPullする
+    2024/11/24時点で最新が1.82.0らしい
+
+    ```
+    docker pull rust:1.82.0-alpine3.20
+    ```
+
+2. コンテナを実行
+
+    ```shell
+    docker run -it  rust:1.82.0-alpine3.20
+    ```
