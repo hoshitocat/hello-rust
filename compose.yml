@@ -4,3 +4,7 @@ services:
     volumes:
       - .:/usr/src/app
     working_dir: /usr/src/app
+    command: /bin/sh
+    # 学習用のためコンテナで対話的に利用したい
+    stdin_open: true 
+    tty: true
